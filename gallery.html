@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Gallery</title>
+  <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+  
+    <h2>Photo Gallery</h2>
+    <div class="photo-card-container">
+      <div class="photo-card">
+        <img
+          id="photo"
+          src=""
+          alt="Photo"
+          class="photo"
+        />
+        <div id="messageOverlay" class="message-overlay">
+          <p id="message"></p>
+        </div>
+        <button id="nextButton" class="next-button">Next</button>
+      </div>
+    </div>
+    <audio controls autoplay loop class="audio">
+        <source src="marudaani.mp3" type="audio/mpeg">
+        <source src="nanbiye.mp3" type="audio/ogg">
+        Your browser does not support the audio tag.
+    </audio>
+  <script src="gallery.js"></script>
+</body>
+</html>
